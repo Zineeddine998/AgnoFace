@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMDP">
+   <children>
+      <Pane prefHeight="220.0" prefWidth="350.0" style="-fx-background-color: transparent;">
+         <children>
+            <PasswordField fx:id="passwordField_motDePasseA" alignment="CENTER" layoutX="82.0" layoutY="69.0" opacity="0.79" prefHeight="32.0" prefWidth="186.0" promptText="Ancien mot de passe" style="-fx-text-fill: #ffffff; -fx-background-color: #4f4f4f;" stylesheets="@../Css/Menu.css" />
+            <JFXButton fx:id="Btn_Valider_mdp" layoutX="118.0" layoutY="157.0" onAction="#validerMDP" prefHeight="38.0" prefWidth="115.0" stylesheets="@../Css/Bt.css" text="Valider" />
+            <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="161.0" layoutY="27.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../Interface/102643.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="-0.33" />
+               </effect>
+            </ImageView>
+            <PasswordField fx:id="passwordField_motDePasseN" alignment="CENTER" layoutX="82.0" layoutY="110.0" opacity="0.79" prefHeight="32.0" prefWidth="186.0" promptText="Nouveau mot de passe" style="-fx-text-fill: #ffffff; -fx-background-color: #4f4f4f;" stylesheets="@../Css/Menu.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
