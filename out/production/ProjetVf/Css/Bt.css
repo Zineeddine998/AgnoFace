@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Azonix';
+    src: url('Fonts/Azonix.otf');
+}
+
+.button {
+    -fx-background-color:  #3d5dff;
+    -fx-background-radius: 50;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-family: 'Azonix';
+  
+
+}
+
+.label {
+	-fx-font-family: 'Azonix';
+}
+
+.button:pressed {
+    -fx-background-color: #2541b2;
+
+
+}
+
+.button:hover {
+        -fx-background-color:  #282828;
+}
+
+.jfx-check-box {
+     -fx-font-family: 'Azonix';
+}
+
+

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Azonix';
+    src: url('Fonts/Azonix.otf');
+}
+
+.label {
+	-fx-font-family: 'Azonix';
+	-fx-text-fill: white;
+}
+
+.jfx-list-cell:selected:focused {
+	-fx-background-color: #3d78ff;
+}
+
+.jfx-list-cell {
+	-fx-text-fill: white;
+	-fx-background-color: #282828;
+	-fx-background-insets: 0;
+}
+
+.jfx-list-cell:hover {
+    -fx-background-color: #505050;
+}
+
+.jfx-list-view {
+	-fx-background-insets: 0;
+	-fx-padding: 0;
+	-fx-vertical-gap: 5;
+	-fx-cell-vertical-margin : 5;
+
+}
+
+.list-view .scroll-bar:vertical {
+	-fx-background-color: #282828;
+}
+
+
+
